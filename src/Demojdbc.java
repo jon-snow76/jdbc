@@ -20,6 +20,7 @@ public class Demojdbc {
         String pass = "****";
         String sql = "Insert into Student values (?,?,?)";
 //        Class.forName("org.postgresql.Driver");
+        //My jdbc
 
         //Establishing connnection
         Connection con = DriverManager.getConnection(url,uname,pass);
